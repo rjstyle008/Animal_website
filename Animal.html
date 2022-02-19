@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>COW.com</title>
+</head>
+<body>
+    <div class="pet">
+    <form>
+        <h1>PET ANIMALS</h1>
+        <p>Required fields are followed by *</p>
+        <hr>
+        <p>ID No. :*<input type="number" name="id_number" id="id_number" required></p>
+        <p>Adhar No :*<input type="number" name="adhar" id="adhar" required></p>
+        <p>Apload photo :*<input type="file" name="image" id="image" required></p>
+        <p>Name :*<input type="text" name="fname" id="fname" required></p>
+        <p>Father's Name :*<input type="text" name="father's_name" id="father's_name" required></p>
+        <fieldset>
+            <legend>Gender :*</legend>
+            <p> 
+                Male :<input type="radio" name="gender" id="male" required>
+                Female :<input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+        <p>D.O.B. :*<input type="date" name="date" id="date" required></p>
+        <p>Address :*<input type="textarea" name="address" id="address" required></p>
+        <p>Mob No. :*<input type="number" name="mob_no" id="mob_no" required></p>
+        <p>Email : <input type="email" name="email" id="email"></p>
+        <input type="submit" value="SUBMIT FORM" id="submit_form">
+        <input type="reset" value="Clear form" id="clear">
+    </form>
+    </div>
+</body>
+</html>
